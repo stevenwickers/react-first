@@ -1,9 +1,9 @@
 {
-  "name": "gravy-app",
+  "name": "react-first",
   "version": "1.0.0",
-  "description": "Gravy Coding Pattern for React and Redux",
+  "description": "Start Applicaton for React and Redux",
   "main": "index.js",
-  "author": "Steven Wickers - StevenWickers_Gravy@gmail.com",
+  "author": "Steven Wickers - StevenWickersGravy@gmail.com",
   "license": "MIT",
   "scripts": {
     "start": "npm-run-all open:src",
@@ -13,11 +13,6 @@
   "dependencies": {
     "babel-polyfill": "6.22.0",
     "body-parser": "^1.18.2",
-    "foundation": "^4.2.1-1",
-    "jquery": "^3.2.1",
-    "moment": "^2.19.1",
-    "mongoose": "^4.12.1",
-    "rc-calendar": "^9.1.12",
     "react": "15.4.2",
     "react-dom": "15.4.2",
     "react-fontawesome": "1.5.0",
@@ -26,8 +21,7 @@
     "react-router": "3.0.2",
     "react-router-redux": "4.0.7",
     "redux": "3.6.0",
-    "redux-thunk": "2.2.0",
-    "toastr": "^2.1.2"
+    "redux-thunk": "2.2.0"
   },
   "devDependencies": {
     "babel-cli": "6.11.4",

@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import express from 'express';
 import webpack from 'webpack';
 import path from 'path';
@@ -11,22 +10,12 @@ const port = 7000;
 const app = express();
 const compiler = webpack(config);
 
-/*** Static Data Route ***/
-let staticMovieRouts = express.Router();
-let staticMemberRouts = express.Router();
 
-/*** Static Movie Routes ***/
-staticMovieRouts = require('./Routes/StaticMovieRouter')();
-staticMemberRouts = require('./Routes/StaticMemberRouter')();
 
 /*** Body Parser for parsing ***/
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true }));
 
-
-/*** API Route ***/
-app.use('/sapi', staticMovieRouts);
-app.use('/sapi', staticMemberRouts);
 
 
 app.get('/', function(req, res) {
