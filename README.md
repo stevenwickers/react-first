@@ -1,4 +1,4 @@
-# movei-app
+# react-first
 
 <p>
 <b>React First Application</b> is a starter application for React / Redux</b>
